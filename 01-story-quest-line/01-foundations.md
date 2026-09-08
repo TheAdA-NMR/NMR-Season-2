@@ -39,6 +39,9 @@ This document defines the **core canon foundations** of the NMR Season 2 story. 
   - a secure bunker complex;
   - direct proximity to the active **Rify Shipwreck contaminated zone**;
   - a dedicated port for maritime logistics.
+- The **Rify Shipwreck contaminated zone** is a major reason NMR chooses this location. The area provides NMR with direct access to an active contamination environment for continuous biological sampling, observation and experimentation.
+- Research conducted around the contaminated shipwreck is used to advance NMR's understanding of the pathogen and directly supports its continuing **biological-weapons and biological-enhancement research**.
+- The nearby bunker allows samples, research data and recovered materials from the contaminated zone to be secured and studied under NMR control.
 - NMR uses Rify for command, field operations, sample handling, decontamination, communications, logistics and research support.
 - From Rify, NMR coordinates operations across Chernarus.
 
@@ -98,4 +101,4 @@ The following are intentionally kept outside this foundation document and should
 - Season 3 destination map and Map Link details.
 
 ## Core Story Summary
-**A failed military biological program at Pavlovo triggers the outbreak. A recovery operation from Balota unintentionally helps spread it. NMR arrives to save Chernarus and establishes Rify as its operational base, but gradually shifts from rescue to containment, research and control. After discovering the military technology and biological enhancement potential behind the Pavlovo program, NMR decides that this power must belong to NMR alone. As the old world collapses, survivors reorganize into new factions built around order, cure and self-sufficiency.**
+**A failed military biological program at Pavlovo triggers the outbreak. A recovery operation from Balota unintentionally helps spread it. NMR arrives to save Chernarus and establishes Rify as its operational base, deliberately using the nearby contaminated shipwreck as an active research environment for biological-weapons and enhancement research. NMR then gradually shifts from rescue to containment, research and control. After discovering the military technology and biological enhancement potential behind the Pavlovo program, NMR decides that this power must belong to NMR alone. As the old world collapses, survivors reorganize into new factions built around order, cure and self-sufficiency.**
