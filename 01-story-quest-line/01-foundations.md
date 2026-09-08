@@ -50,6 +50,9 @@ NMR does not become hostile or morally compromised overnight. Its priorities cha
 
 **Rescue → Containment → Research → Control → Monopoly**
 
+- The turning point begins when NMR combines findings recovered from research facilities with discoveries made through its work around the **Rify contaminated zone**.
+- The documents, samples and research results reveal that the Pavlovo-derived technology and biological program offer far greater military and biological power than NMR originally expected.
+- This discovery changes the internal mindset of NMR leadership. Instead of asking only how the outbreak can be stopped, they begin asking why NMR should not use this power to shape the world that emerges after the collapse.
 - NMR discovers that some survivors appear to show natural resistance / partial immunity.
 - NMR gains access to the true purpose and advanced research behind the Pavlovo program.
 - NMR concludes that the pathogen may be controllable, manipulable or suppressible rather than merely containable.
@@ -103,4 +106,4 @@ The following are intentionally kept outside this foundation document and should
 - Season 3 destination map and Map Link details.
 
 ## Core Story Summary
-**A failed military biological program at Pavlovo triggers the outbreak. A recovery operation from Balota unintentionally helps spread it. NMR arrives to save Chernarus and establishes Rify as its operational base, deliberately using the nearby contaminated shipwreck as an active research environment for biological-weapons and enhancement research. NMR then gradually shifts from rescue to containment, research and control. After discovering the military technology and biological enhancement potential behind the Pavlovo program, NMR decides that this power must belong to NMR alone. As the old world collapses, survivors reorganize into new factions built around order, cure and self-sufficiency.**
+**A failed military biological program at Pavlovo triggers the outbreak. A recovery operation from Balota unintentionally helps spread it. NMR arrives to save Chernarus and establishes Rify as its operational base, deliberately using the nearby contaminated shipwreck as an active research environment for biological-weapons and enhancement research. Findings from Rify and other research sites reveal the extraordinary military and biological potential of the Pavlovo program, pushing NMR beyond its original mission and toward the belief that it should control this power and shape the world that follows. As the old world collapses, survivors reorganize into new factions built around order, cure and self-sufficiency.**
