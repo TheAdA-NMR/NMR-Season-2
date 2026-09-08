@@ -35,3 +35,9 @@ These areas remain available for general events and player loot runs, but should
 - Zelenogorsk Military Base
 - VMC / Veresnik Military Base
 - NWAF / Vybor Air Base
+
+## Open Location Topics — PENDING TEAM DISCUSSION
+
+- Additional custom locations may be created for Season 2 where the story or quest progression requires new environments.
+- Existing custom locations may be revised, expanded or repurposed to better support the Season 2 storyline and quest flow.
+- The final number, purpose and placement of any new or revised locations are not yet fixed and will be decided together with the team as the Story / Quest Line develops.
