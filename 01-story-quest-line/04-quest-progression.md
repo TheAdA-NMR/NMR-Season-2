@@ -36,6 +36,8 @@ The following ideas are intentionally **not canon yet**. They are being kept her
 - NMR may operate multiple research / field-operation sites across Chernarus where it searches for, develops or secures biological research, military technology, samples, data or related assets. Exact locations and functions are still open.
 - Player quests may involve attacking, infiltrating or otherwise disrupting these NMR operation sites in order to slow down or interfere with NMR research and expansion. Exact mechanics are still open.
 - The exact identity, purpose and quest role of the **advanced weapons-development equipment secured at Balota** will be defined together with the quest progression.
+- **Kamensk Military Base** and **East Coast Bunker** are confirmed Story / Quest Line locations. Their exact story roles and placement within the quest progression will be defined here.
+- The exact story role and progression placement of the **Tisy Military Base — Nuclear Launch Site Bunker** will be defined here.
 - Some quests may include outbreak-created **animal bosses**, **mutants**, or other enhanced biological threats. Exact creature types, locations and roles are still open.
 - Some quests may involve eliminating high-level **NMR AI commanders** and their elite teams. Exact AI structure and encounter design are still open.
 - Encounters may combine AI, mutants, infected, environmental hazards, research-site defenses or other threats depending on the location. The final combination for each quest will be decided later.
