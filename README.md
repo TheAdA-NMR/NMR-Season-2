@@ -14,8 +14,7 @@ NMR-Season-2/
 │  ├─ 03-chapters.md
 │  ├─ 04-quest-progression.md
 │  ├─ 05-locations.md
-│  ├─ 06-lore-documents/
-│  │  └─ README.md
+│  ├─ 06-lore-documents.md
 │  └─ 07-open-decisions.md
 ├─ 02-factions/
 │  ├─ 01-overview.md
