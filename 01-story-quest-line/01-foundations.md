@@ -11,11 +11,13 @@ This document defines the **core canon foundations** of the NMR Season 2 story. 
 - The infected are an unintended consequence of the failed program, not the original objective.
 
 ### 2. The Pavlovo Program
+- The pathogen is known as **Zvirus**.
+- Zvirus is transmitted through **blood exposure and bites**.
 - The classified Pavlovo program had a dual military purpose:
   - develop an enhanced / mutant military force;
   - weaponize the same biological agent for use against enemy forces.
 - The experiment loses containment and begins affecting personnel at the facility.
-- The exact pathogen designation, transmission mechanics and scientific process are intentionally not defined at foundation level.
+- The exact scientific process behind the pathogen and the Pavlovo experiment is intentionally not defined at foundation level.
 
 ### 3. Balota Recovery & Wider Spread
 - After the Pavlovo incident, support and recovery teams deploy from **Balota Airfield**.
@@ -85,9 +87,7 @@ Players should reconstruct what happened gradually through fragmented discoverie
 
 ## Foundation Scope Boundary
 The following are intentionally kept outside this foundation document and should be developed in their dedicated files:
-- exact pathogen name and transmission mechanics;
 - exact scientific mechanism behind the Pavlovo experiment;
-- exact NMR control / enhancement method;
 - exact technology, research assets and biological materials NMR ultimately secures;
 - final Season 2 secret / protected asset;
 - final facility location;
