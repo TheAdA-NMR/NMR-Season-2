@@ -46,7 +46,8 @@ At Altar:
 
 5. **Q05 — Solnechny Bunker**
    - Advanced progression step.
-   - Draft encounter concept: **Mutant**.
+   - Draft encounter concept: **Mutant Boss + Zombies**.
+   - The Mutant Boss is intended to be the primary defeat objective, supported by infected / zombie encounters inside or around the bunker.
    - Exact mutant type and encounter structure will be defined later.
 
 6. **Q06 — Skalisty Island**
