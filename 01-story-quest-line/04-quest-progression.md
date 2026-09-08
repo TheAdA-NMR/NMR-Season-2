@@ -35,6 +35,7 @@ The following ideas are intentionally **not canon yet**. They are being kept her
 - The Season 2 questline should gradually reveal the true purpose of NMR operations across Chernarus.
 - NMR may operate multiple research / field-operation sites across Chernarus where it searches for, develops or secures biological research, military technology, samples, data or related assets. Exact locations and functions are still open.
 - Player quests may involve attacking, infiltrating or otherwise disrupting these NMR operation sites in order to slow down or interfere with NMR research and expansion. Exact mechanics are still open.
+- The exact identity, purpose and quest role of the **advanced weapons-development equipment secured at Balota** will be defined together with the quest progression.
 - Some quests may include outbreak-created **animal bosses**, **mutants**, or other enhanced biological threats. Exact creature types, locations and roles are still open.
 - Some quests may involve eliminating high-level **NMR AI commanders** and their elite teams. Exact AI structure and encounter design are still open.
 - Encounters may combine AI, mutants, infected, environmental hazards, research-site defenses or other threats depending on the location. The final combination for each quest will be decided later.
