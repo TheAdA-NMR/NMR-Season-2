@@ -2,8 +2,6 @@
 
 Items below are intentionally **PENDING** and should not be treated as final canon yet.
 
-- Exact pathogen designation and transmission mechanics.
-- Exact control method NMR develops or attempts to develop.
 - Exact nature of the biological material secured at Balota.
 - Exact advanced weapons-development equipment secured at Balota.
 - Exact final facility and final reveal structure.
