@@ -1,6 +1,5 @@
 # Open Decisions
 
-Items below are intentionally **PENDING** and should not be treated as final canon yet.
+There are currently no general open decisions tracked in this file.
 
-- Exact use of resistant / partially immune survivors in NMR research.
-- Season 3 destination map.
+Open design topics are maintained in their relevant development sections, such as `04-quest-progression.md`, `05-locations.md` and `06-lore-documents.md`.
