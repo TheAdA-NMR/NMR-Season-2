@@ -17,12 +17,12 @@
 - Dedicated port = secure maritime logistics.
 
 ### Kamensk Military Base
-- Main quest location.
-- Exact story role still pending.
+- Confirmed Season 2 Story / Quest Line location.
+- Exact story role and progression placement will be defined later.
 
 ### East Coast Bunker
-- Main quest location.
-- Exact story role still pending.
+- Confirmed Season 2 Story / Quest Line location.
+- Exact story role and progression placement will be defined later.
 
 ### Tisy Military Base — Nuclear Launch Site Bunker
 - High-tier / late-game quest location.
