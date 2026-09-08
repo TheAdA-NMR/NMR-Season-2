@@ -24,7 +24,7 @@ At Altar:
 
 ## Draft Main Quest Route
 
-> **DRAFT — Pending Team Discussion:** This is the current proposed main quest sequence. Location order, difficulty, encounter design, rewards and exact story roles may still change during development.
+> **DRAFT — Pending Team Discussion:** All items in this section are working concepts. Location order, difficulty, encounter design, rewards, AI structure and exact story roles may change as development continues.
 
 1. **Q01 — Pavlovo Military Base**
    - Starter / easy quest.
@@ -37,7 +37,8 @@ At Altar:
 3. **Q03 — Prison Island**
    - First major difficulty step.
    - Current working difficulty: **Level 1 Challenge**.
-   - Intended as the first clearly dangerous main-quest encounter.
+   - Draft encounter concept: **NMR AI**.
+   - If NMR AI is used here, the quest includes one mandatory **AI General Boss** that must be defeated.
 
 4. **Q04 — Kamensk Military Base**
    - Intermediate / difficult progression step.
@@ -45,14 +46,18 @@ At Altar:
 
 5. **Q05 — Solnechny Bunker**
    - Advanced progression step.
-   - Exact encounter and story role will be defined during quest development.
+   - Draft encounter concept: **Mutant**.
+   - Exact mutant type and encounter structure will be defined later.
 
 6. **Q06 — Skalisty Island**
    - High-risk progression step.
-   - Suitable for a stronger AI, mutant, infected or mixed encounter depending on the final quest design.
+   - Draft encounter concept: **NMR AI**.
+   - Includes one mandatory **AI General Boss** if this NMR AI concept is retained.
 
 7. **Q07 — Tisy Military Base — Nuclear Launch Site Bunker**
    - Late-game / very high-risk progression step.
+   - Draft encounter concept: **Mutant + NMR AI**.
+   - Includes one mandatory **AI General Boss** alongside the NMR AI encounter if this concept is retained.
    - Intended to lead toward the Season 2 endgame or final operation.
 
 ### Draft Route Summary
@@ -60,6 +65,14 @@ At Altar:
 **Pavlovo Military Base → Balota Air Base Bunker → Prison Island → Kamensk Military Base → Solnechny Bunker → Skalisty Island → Tisy Nuclear Launch Site Bunker**
 
 The route should increase in difficulty gradually rather than using a fixed tier system at this stage. Simpler quests can be used between harder encounters where needed without unnecessarily increasing the total number of main quests.
+
+## Draft NMR AI Structure
+
+- NMR AI may be divided into **three types / classes**.
+- The exact names, roles, equipment, accuracy, armor and behavior of the three AI types are still open.
+- Any main quest that uses **NMR AI** should also include one mandatory **AI General Boss** encounter.
+- Defeating the AI General Boss should be a required objective for completing that quest.
+- Prison Island, Skalisty Island and Tisy Nuclear Launch Site Bunker are the current draft locations where NMR AI may be used.
 
 ## Season 2 Endgame Direction
 
@@ -78,7 +91,6 @@ The following ideas are intentionally **not canon yet**. They are being kept her
 - **Kamensk Military Base** and **East Coast Bunker** are confirmed Story / Quest Line locations. Their exact story roles and placement within the quest progression will be defined here.
 - The exact story role and progression placement of the **Tisy Military Base — Nuclear Launch Site Bunker** will be defined here.
 - Some quests may include outbreak-created **animal bosses**, **mutants**, or other enhanced biological threats. Exact creature types, locations and roles are still open.
-- Some quests may involve eliminating high-level **NMR AI commanders** and their elite teams. Exact AI structure and encounter design are still open.
 - Encounters may combine AI, mutants, infected, environmental hazards, research-site defenses or other threats depending on the location. The final combination for each quest will be decided later.
 - Quest rewards may include intelligence, access items, Punch Cards, research data, unique equipment or progression items. Exact rewards remain open.
 - If **Map Link** is implemented during Season 2, the endgame may reward an electronic access component required to reach the next map / external NMR operation area.
