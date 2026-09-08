@@ -24,9 +24,9 @@ At Altar:
 
 ## Season 2 Endgame Direction
 
-Season 2 remains fully inside Chernarus.
+The exact Season 2 endgame is still under discussion. The storyline may conclude with a final operation in Chernarus, or it may continue through **Map Link** if that system is ready and approved by the team.
 
-A future endgame reward may include an **NMR transfer / Map Link access device**. The device would become relevant for Season 3, but the second map is deliberately not part of the current Season 2 scope.
+The exact **Season 2 endgame reward design** and the exact **Map Link / transfer device rules** will be finalized as part of Quest Progression.
 
 ## Open Topics — Pending Team Discussion
 
