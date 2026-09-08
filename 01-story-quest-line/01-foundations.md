@@ -91,7 +91,7 @@ Players should reconstruct what happened through fragmented in-game evidence, in
 
 Each chapter should reveal only part of the truth, with later and more dangerous locations providing deeper context.
 
-> **Development Note:** The narrative quest structure and the way story information is delivered to players inside the game world will be developed in detail under `06-lore-documents/`. This includes which documents, records, environmental clues, NPC information and other in-world methods are used to reveal each part of the story.
+> **Development Note:** The narrative quest structure and the way story information is delivered to players inside the game world will be developed in detail in `06-lore-documents.md`. This includes which documents, records, environmental clues, NPC information and other in-world methods are used to reveal each part of the story.
 
 ## Foundation Scope Boundary
 The following are intentionally kept outside this foundation document and should be developed in their dedicated files:
