@@ -38,7 +38,7 @@ At Altar:
    - First major difficulty step.
    - Current working difficulty: **Level 1 Challenge**.
    - Draft encounter concept: **NMR AI**.
-   - If NMR AI is used here, the quest includes one mandatory **AI General Boss** that must be defeated.
+   - If NMR AI is used here, the quest includes one mandatory **NMR Field General Boss** that must be defeated.
 
 4. **Q04 — Kamensk Military Base**
    - Intermediate / difficult progression step.
@@ -53,12 +53,12 @@ At Altar:
 6. **Q06 — Skalisty Island**
    - High-risk progression step.
    - Draft encounter concept: **NMR AI**.
-   - Includes one mandatory **AI General Boss** if this NMR AI concept is retained.
+   - Includes one mandatory **NMR Field General Boss** if this NMR AI concept is retained.
 
 7. **Q07 — Tisy Military Base — Nuclear Launch Site Bunker**
    - Late-game / very high-risk progression step.
    - Draft encounter concept: **Mutant + NMR AI**.
-   - Includes one mandatory **AI General Boss** alongside the NMR AI encounter if this concept is retained.
+   - Includes one mandatory **NMR Field General Boss** alongside the NMR AI encounter if this concept is retained.
    - Intended to lead toward the Season 2 endgame or final operation.
 
 ### Draft Route Summary
@@ -69,11 +69,19 @@ The route should increase in difficulty gradually rather than using a fixed tier
 
 ## Draft NMR AI Structure
 
-- NMR AI may be divided into **three types / classes**.
-- The exact names, roles, equipment, accuracy, armor and behavior of the three AI types are still open.
-- Any main quest that uses **NMR AI** should also include one mandatory **AI General Boss** encounter.
-- Defeating the AI General Boss should be a required objective for completing that quest.
+The standard NMR military AI progression is currently planned as three levels:
+
+1. **Level 1 — NMR Patrol Unit**
+2. **Level 2 — NMR Assault Unit**
+3. **Level 3 — NMR Elite Force**
+
+### Boss Class
+
+- **NMR Field General** is a separate boss class and is not part of the Level 1–3 standard AI progression.
+- Any main quest that uses **NMR AI** should also include one mandatory **NMR Field General Boss** encounter.
+- Defeating the NMR Field General should be a required objective for completing that quest.
 - Prison Island, Skalisty Island and Tisy Nuclear Launch Site Bunker are the current draft locations where NMR AI may be used.
+- Exact equipment, accuracy, armor, behavior and balancing of each NMR AI level and the Field General Boss will be defined later.
 
 ## Season 2 Endgame Direction
 
