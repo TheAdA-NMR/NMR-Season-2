@@ -83,6 +83,20 @@ The standard NMR military AI progression is currently planned as three levels:
 - Prison Island, Skalisty Island and Tisy Nuclear Launch Site Bunker are the current draft locations where NMR AI may be used.
 - Exact equipment, accuracy, armor, behavior and balancing of each NMR AI level and the Field General Boss will be defined later.
 
+## Draft Mutant Animal Threats
+
+Mutated animals can be used as **secondary / roaming threats** in and around quest locations, separate from the main boss structure.
+
+Current examples:
+
+- **Black Wolf**
+- **Zombie Dog**
+- **Mutant Bear**
+
+These creatures may appear around visited regions, approach routes, forests, compounds or exterior areas to make travel and exploration more dangerous. They do not need to be mandatory quest bosses unless a specific encounter is designed around them later.
+
+Exact spawn locations, quantities, difficulty and whether additional mutant animal types are used will be decided during encounter design.
+
 ## Season 2 Endgame Direction
 
 The exact Season 2 endgame is still under discussion. The storyline may conclude with a final operation in Chernarus, or it may continue through **Map Link** if that system is ready and approved by the team.
