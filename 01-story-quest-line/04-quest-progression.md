@@ -97,6 +97,13 @@ These creatures may appear around visited regions, approach routes, forests, com
 
 Exact spawn locations, quantities, difficulty and whether additional mutant animal types are used will be decided during encounter design.
 
+## Draft Additional Quest & Loot Notes
+
+- A **sea-based quest** may be added to the main or intermediate quest progression. One current concept is a mission involving reaching a ship at sea and defeating a boss located onboard. The exact vessel, location, boss type and placement in the quest sequence will be decided later.
+- **Loot tiers for all quests** will be added after the overall quest difficulty and reward progression has been discussed and agreed.
+- **AI Boss gear** should scale progressively according to the order and difficulty of the main quests. Later Field General encounters should provide progressively stronger and more valuable equipment than earlier ones.
+- Boss-specific gear may include some of the **highest-storage-capacity wearable gear available in the game**, making boss encounters valuable for both combat progression and utility. Exact items and balance will be defined together with the loot-tier discussion.
+
 ## Season 2 Endgame Direction
 
 The exact Season 2 endgame is still under discussion. The storyline may conclude with a final operation in Chernarus, or it may continue through **Map Link** if that system is ready and approved by the team.
