@@ -27,3 +27,20 @@ At Altar:
 Season 2 remains fully inside Chernarus.
 
 A future endgame reward may include an **NMR transfer / Map Link access device**. The device would become relevant for Season 3, but the second map is deliberately not part of the current Season 2 scope.
+
+## Open Topics — Pending Team Discussion
+
+The following ideas are intentionally **not canon yet**. They are being kept here as open design topics for the Story / Quest Line and will be reviewed together with the team before implementation.
+
+- The Season 2 questline should gradually reveal the true purpose of NMR operations across Chernarus.
+- NMR may operate multiple research / field-operation sites across Chernarus where it searches for, develops or secures biological research, military technology, samples, data or related assets. Exact locations and functions are still open.
+- Player quests may involve attacking, infiltrating or otherwise disrupting these NMR operation sites in order to slow down or interfere with NMR research and expansion. Exact mechanics are still open.
+- Some quests may include outbreak-created **animal bosses**, **mutants**, or other enhanced biological threats. Exact creature types, locations and roles are still open.
+- Some quests may involve eliminating high-level **NMR AI commanders** and their elite teams. Exact AI structure and encounter design are still open.
+- Encounters may combine AI, mutants, infected, environmental hazards, research-site defenses or other threats depending on the location. The final combination for each quest will be decided later.
+- Quest rewards may include intelligence, access items, Punch Cards, research data, unique equipment or progression items. Exact rewards remain open.
+- If **Map Link** is implemented during Season 2, the endgame may reward an electronic access component required to reach the next map / external NMR operation area.
+- A separate endgame combat reward may provide high-tier **gear + weaponry** intended to prepare players for stronger enemies on the next map. Exact items and balance remain open.
+- If Map Link is not ready during Season 2, the access component can remain as a future-facing story item without making Season 2 dependent on the second map.
+- The exact Season 2 final operation, final research target, final facility and final confrontation remain open.
+- Alternative options will be documented under each topic when the design discussion reaches that stage, and final decisions will be made together with the team.
