@@ -79,19 +79,9 @@ The concepts and roles above are canon. Final names for the three player-control
 ## Storytelling Rule
 The story is not delivered as a single exposition dump.
 
-Players should reconstruct what happened through fragmented in-game evidence, including:
-- civilian diaries and survivor accounts;
-- hospital and medical records;
-- military reports and recovery logs;
-- NMR directives and operational orders;
-- scientific notes and research files;
-- radio transcripts;
-- classified documents;
-- environmental clues found at relevant locations.
+Players should reconstruct what happened gradually through fragmented discoveries made across the game world. Each chapter should reveal only part of the truth, with later and more dangerous locations providing deeper context.
 
-Each chapter should reveal only part of the truth, with later and more dangerous locations providing deeper context.
-
-> **Development Note:** The narrative quest structure and the way story information is delivered to players inside the game world will be developed in detail in `06-lore-documents.md`. This includes which documents, records, environmental clues, NPC information and other in-world methods are used to reveal each part of the story.
+> **Development Note:** The detailed quest structure and the specific methods used to deliver story information to players inside the game world will be developed in `06-lore-documents.md`.
 
 ## Foundation Scope Boundary
 The following are intentionally kept outside this foundation document and should be developed in their dedicated files:
