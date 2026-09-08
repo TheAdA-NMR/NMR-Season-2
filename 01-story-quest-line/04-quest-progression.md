@@ -22,6 +22,45 @@ At Altar:
 
 **Quest Complete → Next Quest Unlock → Intel / Item / Punch Card → Location Access → Story Reveal → Reward**
 
+## Draft Main Quest Route
+
+> **DRAFT — Pending Team Discussion:** This is the current proposed main quest sequence. Location order, difficulty, encounter design, rewards and exact story roles may still change during development.
+
+1. **Q01 — Pavlovo Military Base**
+   - Starter / easy quest.
+   - Low-risk introduction to the main storyline.
+
+2. **Q02 — Balota Air Base Bunker**
+   - Easy / intermediate quest.
+   - Connects the player to the Pavlovo recovery operation and begins deeper story discovery.
+
+3. **Q03 — Prison Island**
+   - First major difficulty step.
+   - Current working difficulty: **Level 1 Challenge**.
+   - Intended as the first clearly dangerous main-quest encounter.
+
+4. **Q04 — Kamensk Military Base**
+   - Intermediate / difficult progression step.
+   - Exact encounter and story role will be defined during quest development.
+
+5. **Q05 — Solnechny Bunker**
+   - Advanced progression step.
+   - Exact encounter and story role will be defined during quest development.
+
+6. **Q06 — Skalisty Island**
+   - High-risk progression step.
+   - Suitable for a stronger AI, mutant, infected or mixed encounter depending on the final quest design.
+
+7. **Q07 — Tisy Military Base — Nuclear Launch Site Bunker**
+   - Late-game / very high-risk progression step.
+   - Intended to lead toward the Season 2 endgame or final operation.
+
+### Draft Route Summary
+
+**Pavlovo Military Base → Balota Air Base Bunker → Prison Island → Kamensk Military Base → Solnechny Bunker → Skalisty Island → Tisy Nuclear Launch Site Bunker**
+
+The route should increase in difficulty gradually rather than using a fixed tier system at this stage. Simpler quests can be used between harder encounters where needed without unnecessarily increasing the total number of main quests.
+
 ## Season 2 Endgame Direction
 
 The exact Season 2 endgame is still under discussion. The storyline may conclude with a final operation in Chernarus, or it may continue through **Map Link** if that system is ready and approved by the team.
