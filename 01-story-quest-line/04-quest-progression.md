@@ -110,5 +110,3 @@ The following ideas are intentionally **not canon yet**. They are being kept her
 - If **Map Link** is implemented during Season 2, the endgame may reward an electronic access component required to reach the next map / external NMR operation area.
 - A separate endgame combat reward may provide high-tier **gear + weaponry** intended to prepare players for stronger enemies on the next map. Exact items and balance remain open.
 - If Map Link is not ready during Season 2, the access component can remain as a future-facing story item without making Season 2 dependent on the second map.
-- The exact Season 2 final operation, final research target, final facility and final confrontation remain open.
-- Alternative options will be documented under each topic when the design discussion reaches that stage, and final decisions will be made together with the team.
