@@ -45,13 +45,17 @@ This document defines the **core canon foundations** of the NMR Season 2 story. 
 ### 6. The NMR Transformation
 NMR does not become hostile or morally compromised overnight. Its priorities change gradually as the crisis develops.
 
-**Rescue → Containment → Research → Control**
+**Rescue → Containment → Research → Control → Monopoly**
 
 - NMR discovers that some survivors appear to show natural resistance / partial immunity.
 - NMR gains access to the true purpose and advanced research behind the Pavlovo program.
 - NMR concludes that the pathogen may be controllable, manipulable or suppressible rather than merely containable.
-- Civilian rescue and protection gradually become secondary to understanding and controlling the outbreak.
-- NMR is no longer primarily trying to save Chernarus; its priority becomes making the outbreak controllable.
+- NMR also recognizes the strategic value of the recovered technology and the biological enhancement potential revealed by the Pavlovo research.
+- NMR decides that this technology, biological knowledge and enhancement capability must remain under **exclusive NMR control**.
+- It begins seeking, recovering and securing related research, equipment, samples and technical knowledge across Chernarus.
+- NMR increasingly treats access by outside groups as a threat to its control of the program.
+- Civilian rescue and protection gradually become secondary to understanding, controlling and monopolizing the outbreak-related technology.
+- NMR is no longer primarily trying to save Chernarus; its priority becomes controlling both the outbreak and the power created by the research behind it.
 
 ### 7. The World After the Collapse
 As government, infrastructure and normal civilian life collapse, survivors begin organizing around practical survival needs.
@@ -61,7 +65,7 @@ The Season 2 world contains five broad groups:
 1. **Security / Order Faction** — protection, patrol, defense and maintaining order.
 2. **Medical / Cure Faction** — healthcare, treatment, research and the pursuit of a cure.
 3. **Hunter / Farmer Faction** — food production, hunting, farming and long-term self-sufficiency.
-4. **NMR** — organized international response force whose mission shifts from rescue toward control.
+4. **NMR** — organized international response force whose mission shifts from rescue toward control and exclusive ownership of the Pavlovo-derived technology and biological research.
 5. **Independent Chernarus Population** — unaffiliated civilians and survivors who do not belong to a formal faction.
 
 The concepts and roles above are canon. Final names for the three player-controlled factions remain a **Pending Team Decision** and are maintained in `02-factions/`.
@@ -85,7 +89,8 @@ Each chapter should reveal only part of the truth, with later and more dangerous
 The following are intentionally kept outside this foundation document and should be developed in their dedicated files:
 - exact pathogen name and transmission mechanics;
 - exact scientific mechanism behind the Pavlovo experiment;
-- exact NMR control method;
+- exact NMR control / enhancement method;
+- exact technology, research assets and biological materials NMR ultimately secures;
 - final Season 2 secret / protected asset;
 - final facility location;
 - faction names and detailed faction systems;
@@ -93,4 +98,4 @@ The following are intentionally kept outside this foundation document and should
 - Season 3 destination map and Map Link details.
 
 ## Core Story Summary
-**A failed military biological program at Pavlovo triggers the outbreak. A recovery operation from Balota unintentionally helps spread it. NMR arrives to save Chernarus and establishes Rify as its operational base, but gradually shifts from rescue to containment, research and ultimately control. As the old world collapses, survivors reorganize into new factions built around order, cure and self-sufficiency.**
+**A failed military biological program at Pavlovo triggers the outbreak. A recovery operation from Balota unintentionally helps spread it. NMR arrives to save Chernarus and establishes Rify as its operational base, but gradually shifts from rescue to containment, research and control. After discovering the military technology and biological enhancement potential behind the Pavlovo program, NMR decides that this power must belong to NMR alone. As the old world collapses, survivors reorganize into new factions built around order, cure and self-sufficiency.**
