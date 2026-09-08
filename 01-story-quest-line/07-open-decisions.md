@@ -5,7 +5,8 @@ Items below are intentionally **PENDING** and should not be treated as final can
 - Exact nature of the biological material secured at Balota.
 - Exact advanced weapons-development equipment secured at Balota.
 - Exact final facility and final reveal structure.
-- Exact story roles of Kamensk Military Base, East Coast Bunker and Tisy Nuclear Launch Site Bunker.
+- Exact story roles and progression placement of Kamensk Military Base and East Coast Bunker; both are confirmed Story / Quest Line locations.
+- Exact story role of Tisy Nuclear Launch Site Bunker.
 - Exact use of resistant / partially immune survivors in NMR research.
 - Exact Season 2 endgame reward design.
 - Exact Map Link / transfer device rules.
