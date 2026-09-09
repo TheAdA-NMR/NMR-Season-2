@@ -11,4 +11,4 @@
 - [x] Record NWAF / Vybor Air Base — Explore & Loot.
 - [ ] Record remaining server custom locations and tag each as Main Quest, Side Quest, Explore & Loot, Trader, or other approved use.
 - [ ] Evaluate proposed new custom areas before adding them.
-- [ ] Transfer finalized server-side location setup actions to `01-server-setup`.
+- [ ] Transfer finalized server-side location setup actions to `01-Server-Setup`.

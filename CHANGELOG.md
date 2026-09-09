@@ -1,5 +1,10 @@
 # Change Log
 
+## 2026-09-09 — Folder Naming Update
+- Capitalized the first letter of each word in project folder names.
+- Capitalized Side Quest subfolder names.
+- Updated internal Server Setup path references.
+
 ## 2026-09-09 — Factions Structure Update
 - Moved **Factions** out of Storyline & Main Quest Line into its own top-level section.
 - Renumbered the following top-level sections to keep the project structure sequential.
