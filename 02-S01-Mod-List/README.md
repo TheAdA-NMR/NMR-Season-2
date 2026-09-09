@@ -13,8 +13,8 @@ Season 1 mod inventory used as the working review table for Season 2 decisions.
 | 3 | NMR Dispatch ExpansionMarket | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3764209630) | Economy / Trading | - |  |  |  |
 | 4 | NMR Dispatch | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3764206821) | Missions / Events / Progression | - |  |  |  |
 | 5 | NMR_Server_Pack | - | Core / Framework | - |  |  |  |
-| 6 | RF GARAGE | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3407301140) | Vehicles / Transport | - |  |  |  |
-| 7 | RF | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3401111593) | Core / Framework | - |  |  |  |
+| 6 | RF GARAGE | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3407301140) | Vehicles / Transport | Remove | Causes server crashes and unexplained vehicle despawns. |  |  |
+| 7 | RF | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3401111593) | Core / Framework | Remove | Causes server crashes and unexplained vehicle despawns. |  |  |
 | 8 | Bed-Respawning | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2111275052) | QoL / UI / Social | - |  |  |  |
 | 9 | RZ_Battlepass | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3766436462) | Missions / Events / Progression | - |  |  |  |
 | 10 | BallerZ Gear | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3025712002) | Gear / Equipment | - |  |  |  |
@@ -37,7 +37,7 @@ Season 1 mod inventory used as the working review table for Season 2 decisions.
 | 27 | Blackouts Custom ATM | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2742051470) | Economy / Trading | - |  |  |  |
 | 28 | BS HackedCrate | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3482229348) | Missions / Events / Progression | - |  |  |  |
 | 29 | CBD Map Buildings Codelock Addon | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3655731091) | Base Building / Storage | - |  |  |  |
-| 30 | ThingsToDo | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3239441684) | Farming / Mining / Crafting | - |  |  |  |
+| 30 | ThingsToDo | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3239441684) | Farming / Mining / Crafting | Remove | Conflicts with the mining mod; moonshining is unused. |  |  |
 | 31 | Coco_Restart_Server | - | Admin / Server Management | - |  |  |  |
 | 32 | RaG_BaseBuilding | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3157695626) | Base Building / Storage | - |  |  |  |
 | 33 | BuildEverywhere | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3346795142) | Base Building / Storage | - |  |  |  |
@@ -66,7 +66,7 @@ Season 1 mod inventory used as the working review table for Season 2 decisions.
 | 56 | AgricultureCore | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3690289718) | Core / Framework | - |  |  |  |
 | 57 | DrugsPLUS | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2170927235) | Farming / Mining / Crafting | - |  |  |  |
 | 58 | DayZ Mining System with Ores and Gems V2 | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3604049451) | Farming / Mining / Crafting | - |  |  |  |
-| 59 | Boomlay's sofas | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3629950653) | Base Building / Storage | - |  |  |  |
+| 59 | Boomlay's sofas | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3629950653) | Base Building / Storage | Remove | Redundant with RaG_BaseItems; reduce base-item object count. | RaG_BaseItems | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2878980498) |
 | 60 | TerrainIslands | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2393499239) | World / Map / Environment | - |  |  |  |
 | 61 | GDZ-AnimalHeads | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2530618460) | Animals / Hunting | - |  |  |  |
 | 62 | FC_Fish_Equip | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2937138060) | Animals / Hunting | - |  |  |  |
@@ -81,7 +81,7 @@ Season 1 mod inventory used as the working review table for Season 2 decisions.
 | 71 | Boomlays Things Inventory Fix 1.27 | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3434300728) | Base Building / Storage | - |  |  |  |
 | 72 | BoomLay's Things | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2860643107) | Base Building / Storage | - |  |  |  |
 | 73 | FlipTransport | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183) | Vehicles / Transport | - |  |  |  |
-| 74 | RaG_BeeHive | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2879040969) | Farming / Mining / Crafting | - |  |  |  |
+| 74 | RaG_BeeHive | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2879040969) | Farming / Mining / Crafting | Remove | Buggy and adds little gameplay depth. |  |  |
 | 75 | RaG_Core | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3556131153) | Core / Framework | - |  |  |  |
 | 76 | Lakatash_4KBOSS | - | AI / NPC / PvE | - |  |  |  |
 | 77 | DayZ-Expansion-Licensed | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2116157322) | Core / Framework | - |  |  |  |
