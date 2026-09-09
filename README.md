@@ -7,7 +7,8 @@ Development repository for **No Man's Road — Season 2**.
 ```text
 NMR-Season-2/
 ├─ 01-Server-Setup/
-├─ 02-Storyline-Main-Quest-Line/
+├─ 02-S01-Mod-List/
+├─ 03-Storyline-Main-Quest-Line/
 │  ├─ 01-Foundations.md
 │  ├─ 02-Timeline.md
 │  ├─ 03-Chapters.md
@@ -16,20 +17,19 @@ NMR-Season-2/
 │  ├─ 06-Lore-Documents.md
 │  ├─ 07-Open-Decisions.md
 │  └─ 08-AI-Bosses.md
-├─ 03-Factions/
-├─ 04-Side-Quests/
+├─ 04-Factions/
+├─ 05-Side-Quests/
 │  ├─ 01-Hunter-Quests/
 │  ├─ 02-Medic-Quests/
 │  └─ 03-Bandit-Quests/
-├─ 05-Locations-Custom-Areas/
-├─ 06-Events/
+├─ 06-Locations-Custom-Areas/
+├─ 07-Events/
 │  └─ Event-Mod-List.md
-├─ 07-Economy-Traders/
-├─ 08-Weapons/
-├─ 09-Building-Building-Items/
-├─ 10-Vehicles/
-├─ 11-Game-Progression/
-├─ 12-S01-Mod-List/
+├─ 08-Economy-Traders/
+├─ 09-Weapons/
+├─ 10-Building-Building-Items/
+├─ 11-Vehicles/
+├─ 12-Game-Progression/
 ├─ README.md
 └─ CHANGELOG.md
 ```

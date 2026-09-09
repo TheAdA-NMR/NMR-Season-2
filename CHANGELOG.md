@@ -1,5 +1,10 @@
 # Change Log
 
+## 2026-09-09 — S01 Mod List Reordered
+- Moved **S01 Mod List** to the second top-level project position.
+- Renumbered the former sections 02–11 to 03–12 while preserving their contents.
+- Updated the root repository tree to match the new order.
+
 ## 2026-09-09 — Full Tree Naming Update
 - Capitalized file names and subcategory names across the full repository tree.
 - Preserved **AI** and **NMR** as uppercase abbreviations.
