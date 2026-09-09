@@ -79,7 +79,7 @@ Season 1 mod inventory used as the working review table for Season 2 decisions.
 | 69 | Forward Operator Gear | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2931560672) | Gear / Equipment | - |  |  |  |
 | 70 | Survivor Animations | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2918418331) | Audio / Visual | - |  |  |  |
 | 71 | Boomlays Things Inventory Fix 1.27 | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3434300728) | Base Building / Storage | - |  |  |  |
-| 72 | BoomLay's Things | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2860643107) | Base Building / Storage | Remove | Only the Repair Bench functionality is worth retaining; replace the rest of the mod with a dedicated repair-bench solution. | Repair Bench alternative - TBD |  |
+| 72 | BoomLay's Things | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2860643107) | Base Building / Storage | Remove | Only the Repair Bench functionality is worth retaining; replace the rest of the mod with a dedicated repair solution. | Repair From Ruined to Pristine Updated (Candidate) | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3655699332) |
 | 73 | FlipTransport | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183) | Vehicles / Transport | - |  |  |  |
 | 74 | RaG_BeeHive | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2879040969) | Farming / Mining / Crafting | Remove | Buggy and adds little gameplay depth. |  |  |
 | 75 | RaG_Core | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3556131153) | Core / Framework | - |  |  |  |
