@@ -1,5 +1,10 @@
 # Change Log
 
+## 2026-09-09 — Full Tree Naming Update
+- Capitalized file names and subcategory names across the full repository tree.
+- Preserved **AI** and **NMR** as uppercase abbreviations.
+- Updated internal Main Quest file references to match the new file names.
+
 ## 2026-09-09 — S01 Mod List Added
 - Added **S01 Mod List** as a new top-level project category.
 - Imported the current 81-mod Season 1 review table from **NMR Admin Task Board → Review of S01 Mods**.

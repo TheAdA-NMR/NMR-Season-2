@@ -40,7 +40,7 @@ NMR expands its operations across Chernarus, seeking and securing research, tech
 ## Chapter 6 — Operation: No Man's Road
 The Season 2 storyline moves into its final operational phase.
 
-The exact meaning of **Operation: No Man's Road**, the final facility, final confrontation, rewards and any possible Map Link transition will be defined under `04-quest-progression.md`.
+The exact meaning of **Operation: No Man's Road**, the final facility, final confrontation, rewards and any possible Map Link transition will be defined under `04-Quest-Progression.md`.
 
 ## Finale — PENDING TEAM DISCUSSION
 
