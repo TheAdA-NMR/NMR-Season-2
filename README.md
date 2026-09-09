@@ -29,6 +29,7 @@ NMR-Season-2/
 ├─ 09-Building-Building-Items/
 ├─ 10-Vehicles/
 ├─ 11-Game-Progression/
+├─ 12-S01-Mod-List/
 ├─ README.md
 └─ CHANGELOG.md
 ```
@@ -38,5 +39,6 @@ NMR-Season-2/
 - **Storyline & Main Quest Line** may contain detailed story, lore and main-quest design discussion.
 - All other sections use short, action-based checklist / TODO entries.
 - **Server Setup** contains only finalized server-side implementation tasks transferred from Season 2 design decisions.
+- **S01 Mod List** contains the Season 1 mod inventory and the working Season 2 review / replacement decisions.
 - Gameplay or narrative decisions that do not require server configuration remain in their design section.
 - New headings and subfolders are added only after they are agreed.
