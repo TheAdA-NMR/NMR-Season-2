@@ -1,5 +1,11 @@
 # Change Log
 
+## 2026-09-09 — S01 Mod List Added
+- Added **S01 Mod List** as a new top-level project category.
+- Imported the current 81-mod Season 1 review table from **NMR Admin Task Board → Review of S01 Mods**.
+- Preserved the review columns for Season 2 decisions, reasons and replacement mods.
+- Added the available Steam Workshop links to the GitHub table.
+
 ## 2026-09-09 — Folder Naming Update
 - Capitalized the first letter of each word in project folder names.
 - Capitalized Side Quest subfolder names.
