@@ -15,20 +15,20 @@ NMR-Season-2/
 │  ├─ 05-locations.md
 │  ├─ 06-lore-documents.md
 │  ├─ 07-open-decisions.md
-│  ├─ 08-ai-bosses.md
-│  └─ factions/
-├─ 03-side-quests/
+│  └─ 08-ai-bosses.md
+├─ 03-factions/
+├─ 04-side-quests/
 │  ├─ 01-hunter-quests/
 │  ├─ 02-medic-quests/
 │  └─ 03-bandit-quests/
-├─ 04-locations-custom-areas/
-├─ 05-events/
+├─ 05-locations-custom-areas/
+├─ 06-events/
 │  └─ event-mod-list.md
-├─ 06-economy-traders/
-├─ 07-weapons/
-├─ 08-building-building-items/
-├─ 09-vehicles/
-├─ 10-game-progression/
+├─ 07-economy-traders/
+├─ 08-weapons/
+├─ 09-building-building-items/
+├─ 10-vehicles/
+├─ 11-game-progression/
 ├─ README.md
 └─ CHANGELOG.md
 ```

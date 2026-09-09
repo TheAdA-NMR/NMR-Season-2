@@ -1,5 +1,9 @@
 # Change Log
 
+## 2026-09-09 — Factions Structure Update
+- Moved **Factions** out of Storyline & Main Quest Line into its own top-level section.
+- Renumbered the following top-level sections to keep the project structure sequential.
+
 ## 2026-09-09 — Project Folder Restructure
 - Moved **Server Setup** to the first project section.
 - Renamed **Story / Quest Line** to **Storyline & Main Quest Line**.
