@@ -1,5 +1,18 @@
 # Change Log
 
+## 2026-09-09 — Project Folder Restructure
+- Moved **Server Setup** to the first project section.
+- Renamed **Story / Quest Line** to **Storyline & Main Quest Line**.
+- Moved **Factions** under Storyline & Main Quest Line.
+- Added **AI & Bosses** under Storyline & Main Quest Line.
+- Added **Side Quests** with Hunter, Medic and Bandit quest draft sections.
+- Added **Locations & Custom Areas** for tagged location records and new-area evaluation.
+- Retained **Events** and added **Event Mod List**.
+- Renamed **Economy** to **Economy & Traders**.
+- Added **Weapons**, **Building & Building Items**, **Vehicles** and **Game Progression**.
+- Removed standalone **Gameplay Systems** and **Website** sections.
+- Set action-based TODO/checklist format for all sections outside Storyline & Main Quest Line.
+
 ## Initial Repository Structure
 - Created separate **Story / Quest Line** and **Factions** sections.
 - Moved Lore Documents under Story / Quest Line.
