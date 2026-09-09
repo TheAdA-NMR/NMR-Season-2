@@ -6,50 +6,50 @@ Season 1 mod inventory used as the working review table for Season 2 decisions.
 
 **Current S01 mod count:** 81
 
-**Legend:** 🟥 **Remove** = confirmed for removal from Season 2.
+**Legend:** 🟩 **Keep** = confirmed to remain in Season 2. · 🟥 **Remove** = confirmed for removal from Season 2.
 
 | ID | Mod Name | Workshop Link | Category | S02 Decision | Reason | Replacement Mod | Replacement Workshop Link |
 |---|---|---|---|---|---|---|---|
 | 1 | dsxGLMetrics | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3722383346) | Admin / Server Management | - |  |  |  |
-| 2 | RedFalcon Flight System Heliz | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2692979668) | Vehicles / Transport | Keep |  |  |  |
-| 3 | NMR Dispatch ExpansionMarket | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3764209630) | Economy / Trading | Keep |  |  |  |
-| 4 | NMR Dispatch | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3764206821) | Missions / Events / Progression | Keep |  |  |  |
+| 🟩 2 | RedFalcon Flight System Heliz | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2692979668) | Vehicles / Transport | 🟩 **Keep** |  |  |  |
+| 🟩 3 | NMR Dispatch ExpansionMarket | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3764209630) | Economy / Trading | 🟩 **Keep** |  |  |  |
+| 🟩 4 | NMR Dispatch | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3764206821) | Missions / Events / Progression | 🟩 **Keep** |  |  |  |
 | 5 | NMR_Server_Pack | - | Core / Framework | - |  |  |  |
 | 🟥 **6** | **RF GARAGE** | **[Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3407301140)** | **Vehicles / Transport** | 🟥 **Remove** | **Causes server crashes and unexplained vehicle despawns.** |  |  |
 | 🟥 **7** | **RF** | **[Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3401111593)** | **Core / Framework** | 🟥 **Remove** | **Causes server crashes and unexplained vehicle despawns.** |  |  |
-| 8 | Bed-Respawning | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2111275052) | QoL / UI / Social | Keep | Keep for S02; review possible alternatives. |  |  |
-| 9 | RZ_Battlepass | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3766436462) | Missions / Events / Progression | Keep |  |  |  |
-| 10 | BallerZ Gear | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3025712002) | Gear / Equipment | Keep | Keep, but Lakatash will revise the NMR version. |  |  |
-| 11 | Moving AI Convoy | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3767913539) | Missions / Events / Progression | Keep |  |  |  |
-| 12 | Tent Actions Fix | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3765278986) | Base Building / Storage | Keep |  |  |  |
-| 13 | RAG Expansion Dismantle Fix | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3762367887) | Base Building / Storage | Keep |  |  |  |
-| 14 | BodyBags 2.0 | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3707663156) | Survival / Medical | Keep |  |  |  |
+| 🟩 8 | Bed-Respawning | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2111275052) | QoL / UI / Social | 🟩 **Keep** | Keep for S02; review possible alternatives. |  |  |
+| 🟩 9 | RZ_Battlepass | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3766436462) | Missions / Events / Progression | 🟩 **Keep** |  |  |  |
+| 🟩 10 | BallerZ Gear | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3025712002) | Gear / Equipment | 🟩 **Keep** | Keep, but Lakatash will revise the NMR version. |  |  |
+| 🟩 11 | Moving AI Convoy | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3767913539) | Missions / Events / Progression | 🟩 **Keep** |  |  |  |
+| 🟩 12 | Tent Actions Fix | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3765278986) | Base Building / Storage | 🟩 **Keep** |  |  |  |
+| 🟩 13 | RAG Expansion Dismantle Fix | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3762367887) | Base Building / Storage | 🟩 **Keep** |  |  |  |
+| 🟩 14 | BodyBags 2.0 | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3707663156) | Survival / Medical | 🟩 **Keep** |  |  |  |
 | 15 | Roleplay ID Cards (Free To Use) | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3334166936) | QoL / UI / Social | Review | Final decision depends on whether ID cards support S02 progression and in-game systems. |  |  |
-| 16 | Name Tags | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3624539961) | QoL / UI / Social | Keep | Keep for now; review alternatives with player overhead icon support. |  |  |
-| 17 | PvZmoD_CustomisableZombies | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2051775667) | AI / NPC / PvE | Keep |  |  |  |
-| 18 | Terje-Medicine | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3649957536) | Survival / Medical | Keep |  |  |  |
-| 19 | Terje-Core | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3649957186) | Core / Framework | Keep |  |  |  |
-| 20 | Flying Birds! | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2501812949) | Animals / Hunting | Keep |  |  |  |
-| 21 | Lakatash Apocalypse Vehicles NMRPack | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3742769798) | Vehicles / Transport | Keep |  |  |  |
+| 🟩 16 | Name Tags | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3624539961) | QoL / UI / Social | 🟩 **Keep** | Keep for now; review alternatives with player overhead icon support. |  |  |
+| 🟩 17 | PvZmoD_CustomisableZombies | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2051775667) | AI / NPC / PvE | 🟩 **Keep** |  |  |  |
+| 🟩 18 | Terje-Medicine | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3649957536) | Survival / Medical | 🟩 **Keep** |  |  |  |
+| 🟩 19 | Terje-Core | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3649957186) | Core / Framework | 🟩 **Keep** |  |  |  |
+| 🟩 20 | Flying Birds! | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2501812949) | Animals / Hunting | 🟩 **Keep** |  |  |  |
+| 🟩 21 | Lakatash Apocalypse Vehicles NMRPack | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3742769798) | Vehicles / Transport | 🟩 **Keep** |  |  |  |
 | 22 | MuchCarKey Logs Fix | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3445541482) | Vehicles / Transport | Review | Review with MuchCarKey; final decision depends on the selected garage solution. |  |  |
 | 23 | MuchCarKey | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2049002856) | Vehicles / Transport | Review | Final decision depends on the selected garage solution. |  |  |
 | 24 | BLR Portable Houses Upgraded | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3673762621) | Base Building / Storage | Consider Replace | Portable houses feel inconsistent with the DayZ concept; evaluate a more suitable alternative. |  |  |
 | 25 | XtraVanilla Clothing | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2860464214) | Gear / Equipment | - |  |  |  |
-| 26 | ATM Hacking | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3550831150) | Missions / Events / Progression | Keep | Keep for now; currently buggy. Re-test and evaluate alternatives. |  |  |
-| 27 | Blackouts Custom ATM | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2742051470) | Economy / Trading | Keep |  |  |  |
-| 28 | BS HackedCrate | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3482229348) | Missions / Events / Progression | Keep |  |  |  |
+| 🟩 26 | ATM Hacking | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3550831150) | Missions / Events / Progression | 🟩 **Keep** | Keep for now; currently buggy. Re-test and evaluate alternatives. |  |  |
+| 🟩 27 | Blackouts Custom ATM | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2742051470) | Economy / Trading | 🟩 **Keep** |  |  |  |
+| 🟩 28 | BS HackedCrate | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3482229348) | Missions / Events / Progression | 🟩 **Keep** |  |  |  |
 | 29 | CBD Map Buildings Codelock Addon | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3655731091) | Base Building / Storage | Consider Remove | Good concept, but it causes problems; removal should be considered. |  |  |
 | 🟥 **30** | **ThingsToDo** | **[Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3239441684)** | **Farming / Mining / Crafting** | 🟥 **Remove** | **Conflicts with the mining mod; moonshining is unused.** |  |  |
-| 31 | Coco_Restart_Server | - | Admin / Server Management | Keep | Keep for now. |  |  |
-| 32 | RaG_BaseBuilding | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3157695626) | Base Building / Storage | Keep | Keep for now; compare with the available alternative and replace if better. |  |  |
-| 33 | BuildEverywhere | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3346795142) | Base Building / Storage | Keep |  |  |  |
+| 🟩 31 | Coco_Restart_Server | - | Admin / Server Management | 🟩 **Keep** | Keep for now. |  |  |
+| 🟩 32 | RaG_BaseBuilding | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3157695626) | Base Building / Storage | 🟩 **Keep** | Keep for now; compare with the available alternative and replace if better. |  |  |
+| 🟩 33 | BuildEverywhere | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3346795142) | Base Building / Storage | 🟩 **Keep** |  |  |  |
 | 34 | Code Lock Craft | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2893704387) | Base Building / Storage | Review | Optional; Code Locks are easy to loot and find, so crafting may be unnecessary. |  |  |
 | 35 | Code Lock | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1646187754) | Base Building / Storage | - |  |  |  |
-| 36 | COCAs_NoVehicleDamageMOD | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2024889593) | Vehicles / Transport | Keep |  |  |  |
-| 37 | CarVanillaPlus_v2 | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2780278027) | Vehicles / Transport | Keep |  |  |  |
-| 38 | InventoryInVehiclePlus | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2611937447) | Vehicles / Transport | Keep |  |  |  |
-| 39 | MuchPVE | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3002379892) | AI / NPC / PvE | Keep |  |  |  |
-| 40 | Plane Crash | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3507617679) | Missions / Events / Progression | Keep |  |  |  |
+| 🟩 36 | COCAs_NoVehicleDamageMOD | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2024889593) | Vehicles / Transport | 🟩 **Keep** |  |  |  |
+| 🟩 37 | CarVanillaPlus_v2 | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2780278027) | Vehicles / Transport | 🟩 **Keep** |  |  |  |
+| 🟩 38 | InventoryInVehiclePlus | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2611937447) | Vehicles / Transport | 🟩 **Keep** |  |  |  |
+| 🟩 39 | MuchPVE | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3002379892) | AI / NPC / PvE | 🟩 **Keep** |  |  |  |
+| 🟩 40 | Plane Crash | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3507617679) | Missions / Events / Progression | 🟩 **Keep** |  |  |  |
 | 41 | Uncuepas Civilian Clothing | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1762444175) | Gear / Equipment | - |  |  |  |
 | 42 | SNAFU Weapons | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2443122116) | Weapons / Combat | - |  |  |  |
 | 43 | DayZ-Dog | [Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2471347750) | Animals / Hunting | - |  |  |  |
