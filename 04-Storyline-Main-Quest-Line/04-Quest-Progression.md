@@ -110,6 +110,14 @@ The exact Season 2 endgame is still under discussion. The storyline may conclude
 
 The exact **Season 2 endgame reward design** and the exact **Map Link / transfer device rules** will be finalized as part of Quest Progression.
 
+### Endgame Reward Candidate — Black Market NMR Access
+
+- **Lakatash proposal:** one possible endgame reward is a special NMR authorization item, wearable ID/pass or gear item that allows the player to enter the **Black Market** without being attacked by the otherwise hostile NMR units guarding the area.
+- The exact form of the reward is still open: it may be a carried item, an equipped wearable item or another suitable gear-based solution.
+- While the reward is active, Black Market NMR forces would temporarily recognize the player as authorized/non-hostile for that visit.
+- The access reward is intended to be **single-use per visit** and should be consumed, removed or otherwise become unusable after the Black Market visit, so repeated safe access requires obtaining another one.
+- Technical feasibility, activation/consumption logic, exploit prevention and the exact way the reward is obtained will be defined during quest and endgame implementation design.
+
 ## Open Topics — Pending Team Discussion
 
 The following ideas are intentionally **not canon yet**. They are being kept here as open design topics for the Story / Quest Line and will be reviewed together with the team before implementation.
