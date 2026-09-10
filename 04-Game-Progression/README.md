@@ -12,6 +12,15 @@
 - Loot from these events should support both economy progression and personal gear progression.
 - Event loot should act as one of the main preparation paths before higher-risk **Main Quest / NMR Quest / Bandit Quest** content.
 
+## Crafting & Loot Economy
+
+- **HP Workbench** can be used as a central part of the S02 crafting and loot-economy progression.
+- Crafting should provide an additional progression path for **base building, player gear, weapons and ammunition**, rather than making every useful item directly available through loot or traders.
+- Supporting systems such as **Mining** and **Hunting** can feed materials and components into crafting, connecting different gameplay activities into one economy loop.
+- A crafting-centered structure can give collected resources more value and add progression depth beyond simply finding or buying finished items.
+- Selected **mid-tier items** and items with specific utility can be obtainable primarily or exclusively through crafting.
+- Possible examples include **suppressors, NVGs and high-capacity carrying bags/gear**. The exact craft-only item list and required materials can be defined later together with the overall loot and economy balance.
+
 ## Player Skill Progression
 
 - The current baseline uses **Zen Skill Tree**.
