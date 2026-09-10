@@ -24,13 +24,3 @@
 | MQ-004 | After the 04-Quest-Progression.md and 05-Locations.md flow is defined, finalize the total number of main quests and define the encounter requirements for each quest, including which boss is used and the required AI and/or mutant type and quantity. | Storyline & Main Quest Line | Todo | Medium | Lakatash + The_AdA |
 | MQ-005 | Define the loot and rewards available at each step of the main quest progression and finalize the end-game loot options, including how rewards scale with quest difficulty and progression. | Storyline & Main Quest Line | Todo | Medium | Lakatash + The_AdA |
 | MQ-006 | Finalize the NMR AI structure, hierarchy and role definitions for S02. Evaluate a structure such as NMR Researcher, NMR Combat Force, NMR Elite Force and NMR General as the boss-level role, including how each tier is used across the quest progression. | Storyline & Main Quest Line | Todo | Medium | Lakatash + The_AdA |
-
-## Game Progression — [Source TODO](../13-Game-Progression/TODO.md)
-
-| ID | TODO | Section | Status | Priority | Owner |
-|---|---|---|---|---|---|
-| PROG-001 | Finalize the long-term S02 progression loop linking economy, quests, random events and personal progression so players have multiple meaningful paths to continue progressing. | Game Progression | Todo | Medium | Lakatash + The_AdA |
-| PROG-002 | Retain and balance Hacked Crate, King of the Hill, Plane Crash and Airdrop events as gear-up and economy progression sources leading into Main Quest, NMR Quest and Bandit Quest content. | Game Progression | Todo | Medium | Lakatash + The_AdA |
-| PROG-003 | Evaluate replacing Zen Skill Tree with Terje Skills for a longer and broader player skill progression. Define Medicine skill-point gain so Terje Skills and Terje Medicine complement each other without excessive grind. | Game Progression | Todo | Medium | Lakatash + The_AdA |
-| PROG-004 | Replace/rework the current Admiral's hunting functionality. Evaluate a hunting solution with animal-weight-based progression/rewards and retain the animal-head trophy system. | Game Progression | Todo | Medium | Lakatash + The_AdA |
-| PROG-005 | Review the fishing content and keep the useful progression elements such as fish variety, fishing rods, bait variety and Fisherman Backpack while removing/avoiding unnecessary extra and storage items where practical. | Game Progression | Todo | Medium | Lakatash + The_AdA |
