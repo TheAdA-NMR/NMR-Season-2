@@ -1,0 +1,135 @@
+name: Sync General TODO to Project
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '02-General-TODO-List/README.md'
+
+permissions:
+  contents: read
+
+env:
+  PROJECT_OWNER: TheAdA-NMR
+  PROJECT_NUMBER: '2'
+  TODO_FILE: 02-General-TODO-List/README.md
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate project access
+        env:
+          GH_TOKEN: ${{ secrets.NMR_PROJECT_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh project view "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" >/dev/null
+
+      - name: Ensure project fields
+        env:
+          GH_TOKEN: ${{ secrets.NMR_PROJECT_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          fields="$(gh project field-list "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --limit 100 --format json --jq '.fields[].name')"
+
+          if ! grep -Fxq 'Section' <<<"$fields"; then
+            gh project field-create "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --name 'Section' --data-type TEXT >/dev/null
+          fi
+
+          if ! grep -Fxq 'Priority' <<<"$fields"; then
+            gh project field-create "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --name 'Priority' --data-type SINGLE_SELECT --single-select-options 'Low,Medium,High,Critical' >/dev/null
+          fi
+
+          if ! grep -Fxq 'Owner' <<<"$fields"; then
+            gh project field-create "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --name 'Owner' --data-type TEXT >/dev/null
+          fi
+
+      - name: Parse General TODO
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('02-General-TODO-List/README.md')
+          rows = []
+          reading = False
+          seen = set()
+
+          for raw in path.read_text(encoding='utf-8').splitlines():
+              line = raw.strip()
+              if line.startswith('| ID | TODO | Section | Status | Priority | Owner |'):
+                  reading = True
+                  continue
+              if reading and line.startswith('|---'):
+                  continue
+              if reading and line.startswith('|'):
+                  parts = [p.strip() for p in line.strip('|').split('|')]
+                  if len(parts) != 6:
+                      continue
+                  todo_id, todo, section, status, priority, owner = parts
+                  if not todo_id or todo_id in seen:
+                      continue
+                  seen.add(todo_id)
+                  rows.append({
+                      'id': todo_id,
+                      'todo': todo,
+                      'section': section,
+                      'status': status or 'Todo',
+                      'priority': priority or 'Medium',
+                      'owner': owner or 'Unassigned',
+                  })
+              elif reading:
+                  reading = False
+
+          Path('/tmp/nmr-todos.json').write_text(json.dumps(rows, ensure_ascii=False), encoding='utf-8')
+          print(f'Parsed {len(rows)} TODO item(s).')
+          PY
+
+      - name: Sync draft items and fields
+        env:
+          GH_TOKEN: ${{ secrets.NMR_PROJECT_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          existing="$(gh project item-list "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --limit 1000 --format json)"
+          created=0
+          updated=0
+
+          while IFS= read -r row; do
+            id="$(jq -r '.id' <<<"$row")"
+            todo="$(jq -r '.todo' <<<"$row")"
+            section="$(jq -r '.section' <<<"$row")"
+            status="$(jq -r '.status' <<<"$row")"
+            priority="$(jq -r '.priority' <<<"$row")"
+            owner="$(jq -r '.owner' <<<"$row")"
+            title="[$id] $todo"
+            body="NMR TODO ID: $id\nSource: https://github.com/${GITHUB_REPOSITORY}/blob/main/${TODO_FILE}"
+
+            item_id="$(jq -r --arg prefix "[$id] " '.items[]? | select((.title // "") | startswith($prefix)) | .id' <<<"$existing" | head -n 1)"
+
+            if [[ -z "$item_id" ]]; then
+              item_json="$(gh project item-create "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --title "$title" --body "$body" --format json)"
+              item_id="$(jq -r '.id' <<<"$item_json")"
+              created=$((created + 1))
+            else
+              gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --title "$title" --body "$body" >/dev/null
+              updated=$((updated + 1))
+            fi
+
+            gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --field 'Section' --value "$section" >/dev/null
+            gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --field 'Status' --value "$status" >/dev/null
+            gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --field 'Priority' --value "$priority" >/dev/null
+            gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --field 'Owner' --value "$owner" >/dev/null
+          done < <(jq -c '.[]' /tmp/nmr-todos.json)
+
+          {
+            echo '## NMR General TODO → Project #2'
+            echo
+            echo "- Created: $created"
+            echo "- Updated: $updated"
+            echo "- Source: $TODO_FILE"
+          } >> "$GITHUB_STEP_SUMMARY"
