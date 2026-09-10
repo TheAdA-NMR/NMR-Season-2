@@ -9,9 +9,9 @@ NMR-Season-2/
 ├─ 01-Server-Setup/
 ├─ 02-General-TODO-List/
 │  └─ README.md
-├─ 03-Game-Progression/
+├─ 03-S01-Mod-List/
 │  └─ TODO.md
-├─ 04-S01-Mod-List/
+├─ 04-Game-Progression/
 │  └─ TODO.md
 ├─ 05-Storyline-Main-Quest-Line/
 │  ├─ 01-Foundations.md

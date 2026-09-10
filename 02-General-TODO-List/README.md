@@ -1,6 +1,6 @@
 # General TODO List
 
-## S01 Mod List — [Source TODO](../04-S01-Mod-List/TODO.md)
+## S01 Mod List — [Source TODO](../03-S01-Mod-List/TODO.md)
 
 | ID | TODO | Section | Status | Priority | Owner |
 |---|---|---|---|---|---|
