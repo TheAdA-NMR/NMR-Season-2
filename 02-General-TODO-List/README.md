@@ -11,3 +11,4 @@
 | S01-018 | BoomLay's Things — Confirm removal and retain only the required repair functionality through a dedicated replacement solution. | S01 Mod List | Todo | Medium | Lakatash + The_AdA |
 | S01-019 | RaG_BeeHive — Confirm removal from S02. | S01 Mod List | Todo | Medium | Lakatash + The_AdA |
 | S01-020 | Review the complete S01 Mod List and finalize the remaining S02 mod decisions. | S01 Mod List | Todo | High | Lakatash + The_AdA |
+| S01-021 | NMR_Server_Pack — Lakatash will clean up the server pack and share the updated content list afterwards for S02 review. | S01 Mod List | Todo | Medium | Lakatash |
