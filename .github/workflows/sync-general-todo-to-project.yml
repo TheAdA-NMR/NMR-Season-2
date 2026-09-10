@@ -10,7 +10,6 @@ permissions:
   contents: read
 
 env:
-  PROJECT_OWNER: '@me'
   PROJECT_NUMBER: '2'
   TODO_FILE: 02-General-TODO-List/README.md
 
@@ -20,39 +19,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Validate project access
-        env:
-          GH_TOKEN: ${{ secrets.NMR_PROJECT_TOKEN }}
-        run: |
-          set -euo pipefail
-          viewer="$(gh api user --jq '.login')"
-          echo "Authenticated as: $viewer"
-          if [[ "$viewer" != 'TheAdA-NMR' ]]; then
-            echo "::error::NMR_PROJECT_TOKEN belongs to $viewer, expected TheAdA-NMR."
-            exit 1
-          fi
-          gh project view "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" >/dev/null
-
-      - name: Ensure project fields
-        env:
-          GH_TOKEN: ${{ secrets.NMR_PROJECT_TOKEN }}
-        run: |
-          set -euo pipefail
-
-          fields="$(gh project field-list "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --limit 100 --format json --jq '.fields[].name')"
-
-          if ! grep -Fxq 'Section' <<<"$fields"; then
-            gh project field-create "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --name 'Section' --data-type TEXT >/dev/null
-          fi
-
-          if ! grep -Fxq 'Priority' <<<"$fields"; then
-            gh project field-create "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --name 'Priority' --data-type SINGLE_SELECT --single-select-options 'Low,Medium,High,Critical' >/dev/null
-          fi
-
-          if ! grep -Fxq 'Owner' <<<"$fields"; then
-            gh project field-create "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --name 'Owner' --data-type TEXT >/dev/null
-          fi
 
       - name: Parse General TODO
         run: |
@@ -95,15 +61,166 @@ jobs:
           print(f'Parsed {len(rows)} TODO item(s).')
           PY
 
-      - name: Sync draft items and fields
+      - name: Sync General TODO to Project #2
         env:
           GH_TOKEN: ${{ secrets.NMR_PROJECT_TOKEN }}
         run: |
           set -euo pipefail
 
-          existing="$(gh project item-list "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --limit 1000 --format json)"
+          viewer="$(gh api user --jq '.login')"
+          echo "Authenticated as: $viewer"
+          if [[ "$viewer" != 'TheAdA-NMR' ]]; then
+            echo "::error::NMR_PROJECT_TOKEN belongs to $viewer, expected TheAdA-NMR."
+            exit 1
+          fi
+
+          refresh_project() {
+            gh api graphql \
+              -F number="$PROJECT_NUMBER" \
+              -f query='query($number:Int!) {
+                viewer {
+                  login
+                  projectV2(number:$number) {
+                    id
+                    title
+                    fields(first:100) {
+                      nodes {
+                        __typename
+                        ... on ProjectV2Field { id name dataType }
+                        ... on ProjectV2SingleSelectField { id name dataType options { id name } }
+                      }
+                    }
+                    items(first:100) {
+                      nodes {
+                        id
+                        content {
+                          __typename
+                          ... on DraftIssue { id title body }
+                        }
+                      }
+                    }
+                  }
+                }
+              }' > /tmp/project.json
+          }
+
+          refresh_project
+          PROJECT_ID="$(jq -r '.data.viewer.projectV2.id // empty' /tmp/project.json)"
+          PROJECT_TITLE="$(jq -r '.data.viewer.projectV2.title // empty' /tmp/project.json)"
+          if [[ -z "$PROJECT_ID" ]]; then
+            echo "::error::Project #$PROJECT_NUMBER was not found for $viewer."
+            exit 1
+          fi
+          echo "Project: $PROJECT_TITLE ($PROJECT_ID)"
+
+          field_exists() {
+            jq -e --arg name "$1" '.data.viewer.projectV2.fields.nodes[]? | select(.name == $name)' /tmp/project.json >/dev/null
+          }
+
+          create_text_field() {
+            local name="$1"
+            gh api graphql \
+              -f project="$PROJECT_ID" \
+              -f name="$name" \
+              -f query='mutation($project:ID!, $name:String!) {
+                createProjectV2Field(input:{projectId:$project, name:$name, dataType:TEXT}) {
+                  projectV2Field { ... on ProjectV2Field { id name } }
+                }
+              }' >/dev/null
+          }
+
+          if ! field_exists 'Section'; then
+            create_text_field 'Section'
+          fi
+
+          if ! field_exists 'Owner'; then
+            create_text_field 'Owner'
+          fi
+
+          if ! field_exists 'Priority'; then
+            gh api graphql \
+              -f project="$PROJECT_ID" \
+              -f query='mutation($project:ID!) {
+                createProjectV2Field(input:{
+                  projectId:$project,
+                  name:"Priority",
+                  dataType:SINGLE_SELECT,
+                  singleSelectOptions:[
+                    {name:"Low", color:GRAY, description:"Low priority"},
+                    {name:"Medium", color:YELLOW, description:"Medium priority"},
+                    {name:"High", color:ORANGE, description:"High priority"},
+                    {name:"Critical", color:RED, description:"Critical priority"}
+                  ]
+                }) {
+                  projectV2Field { ... on ProjectV2SingleSelectField { id name } }
+                }
+              }' >/dev/null
+          fi
+
+          if ! field_exists 'Status'; then
+            gh api graphql \
+              -f project="$PROJECT_ID" \
+              -f query='mutation($project:ID!) {
+                createProjectV2Field(input:{
+                  projectId:$project,
+                  name:"Status",
+                  dataType:SINGLE_SELECT,
+                  singleSelectOptions:[
+                    {name:"Todo", color:GRAY, description:"Ready to start"},
+                    {name:"In Progress", color:YELLOW, description:"Work in progress"},
+                    {name:"Review", color:PURPLE, description:"Under review"},
+                    {name:"Frozen", color:BLUE, description:"On hold"},
+                    {name:"Done", color:GREEN, description:"Completed"}
+                  ]
+                }) {
+                  projectV2Field { ... on ProjectV2SingleSelectField { id name } }
+                }
+              }' >/dev/null
+          fi
+
+          refresh_project
+
+          SECTION_FIELD_ID="$(jq -r '.data.viewer.projectV2.fields.nodes[]? | select(.name=="Section") | .id' /tmp/project.json | head -n1)"
+          STATUS_FIELD_ID="$(jq -r '.data.viewer.projectV2.fields.nodes[]? | select(.name=="Status") | .id' /tmp/project.json | head -n1)"
+          PRIORITY_FIELD_ID="$(jq -r '.data.viewer.projectV2.fields.nodes[]? | select(.name=="Priority") | .id' /tmp/project.json | head -n1)"
+          OWNER_FIELD_ID="$(jq -r '.data.viewer.projectV2.fields.nodes[]? | select(.name=="Owner") | .id' /tmp/project.json | head -n1)"
+
           created=0
           updated=0
+
+          set_text_field() {
+            local item="$1" field="$2" text="$3"
+            gh api graphql \
+              -f project="$PROJECT_ID" \
+              -f item="$item" \
+              -f field="$field" \
+              -f text="$text" \
+              -f query='mutation($project:ID!, $item:ID!, $field:ID!, $text:String!) {
+                updateProjectV2ItemFieldValue(input:{
+                  projectId:$project,
+                  itemId:$item,
+                  fieldId:$field,
+                  value:{text:$text}
+                }) { projectV2Item { id } }
+              }' >/dev/null
+          }
+
+          set_select_field() {
+            local item="$1" field="$2" option="$3"
+            gh api graphql \
+              -f project="$PROJECT_ID" \
+              -f item="$item" \
+              -f field="$field" \
+              -f option="$option" \
+              -f query='mutation($project:ID!, $item:ID!, $field:ID!, $option:String!) {
+                updateProjectV2ItemFieldValue(input:{
+                  projectId:$project,
+                  itemId:$item,
+                  fieldId:$field,
+                  value:{singleSelectOptionId:$option}
+                }) { projectV2Item { id } }
+              }' >/dev/null
+          }
 
           while IFS= read -r row; do
             id="$(jq -r '.id' <<<"$row")"
@@ -113,28 +230,60 @@ jobs:
             priority="$(jq -r '.priority' <<<"$row")"
             owner="$(jq -r '.owner' <<<"$row")"
             title="[$id] $todo"
-            body="NMR TODO ID: $id\nSource: https://github.com/${GITHUB_REPOSITORY}/blob/main/${TODO_FILE}"
+            body="$(printf 'NMR TODO ID: %s\nSource: https://github.com/%s/blob/main/%s' "$id" "$GITHUB_REPOSITORY" "$TODO_FILE")"
+            prefix="[$id] "
 
-            item_id="$(jq -r --arg prefix "[$id] " '.items[]? | select((.title // "") | startswith($prefix)) | .id' <<<"$existing" | head -n 1)"
+            item_id="$(jq -r --arg prefix "$prefix" '.data.viewer.projectV2.items.nodes[]? | select(.content.__typename=="DraftIssue" and ((.content.title // "") | startswith($prefix))) | .id' /tmp/project.json | head -n1)"
+            draft_id="$(jq -r --arg prefix "$prefix" '.data.viewer.projectV2.items.nodes[]? | select(.content.__typename=="DraftIssue" and ((.content.title // "") | startswith($prefix))) | .content.id' /tmp/project.json | head -n1)"
 
             if [[ -z "$item_id" ]]; then
-              item_json="$(gh project item-create "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --title "$title" --body "$body" --format json)"
-              item_id="$(jq -r '.id' <<<"$item_json")"
+              created_json="$(gh api graphql \
+                -f project="$PROJECT_ID" \
+                -f title="$title" \
+                -f body="$body" \
+                -f query='mutation($project:ID!, $title:String!, $body:String!) {
+                  addProjectV2DraftIssue(input:{projectId:$project, title:$title, body:$body}) {
+                    projectItem { id content { ... on DraftIssue { id } } }
+                  }
+                }')"
+              item_id="$(jq -r '.data.addProjectV2DraftIssue.projectItem.id' <<<"$created_json")"
+              draft_id="$(jq -r '.data.addProjectV2DraftIssue.projectItem.content.id' <<<"$created_json")"
               created=$((created + 1))
             else
-              gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --title "$title" --body "$body" >/dev/null
+              gh api graphql \
+                -f draft="$draft_id" \
+                -f title="$title" \
+                -f body="$body" \
+                -f query='mutation($draft:ID!, $title:String!, $body:String!) {
+                  updateProjectV2DraftIssue(input:{draftIssueId:$draft, title:$title, body:$body}) {
+                    draftIssue { id }
+                  }
+                }' >/dev/null
               updated=$((updated + 1))
             fi
 
-            gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --field 'Section' --value "$section" >/dev/null
-            gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --field 'Status' --value "$status" >/dev/null
-            gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --field 'Priority' --value "$priority" >/dev/null
-            gh project item-edit "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --id "$item_id" --field 'Owner' --value "$owner" >/dev/null
+            status_option="$(jq -r --arg value "$status" '.data.viewer.projectV2.fields.nodes[]? | select(.name=="Status") | .options[]? | select(.name==$value) | .id' /tmp/project.json | head -n1)"
+            priority_option="$(jq -r --arg value "$priority" '.data.viewer.projectV2.fields.nodes[]? | select(.name=="Priority") | .options[]? | select(.name==$value) | .id' /tmp/project.json | head -n1)"
+
+            if [[ -z "$status_option" ]]; then
+              echo "::error::Unknown Status '$status' for $id."
+              exit 1
+            fi
+            if [[ -z "$priority_option" ]]; then
+              echo "::error::Unknown Priority '$priority' for $id."
+              exit 1
+            fi
+
+            set_text_field "$item_id" "$SECTION_FIELD_ID" "$section"
+            set_select_field "$item_id" "$STATUS_FIELD_ID" "$status_option"
+            set_select_field "$item_id" "$PRIORITY_FIELD_ID" "$priority_option"
+            set_text_field "$item_id" "$OWNER_FIELD_ID" "$owner"
           done < <(jq -c '.[]' /tmp/nmr-todos.json)
 
           {
             echo '## NMR General TODO → Project #2'
             echo
+            echo "- Project: $PROJECT_TITLE"
             echo "- Created: $created"
             echo "- Updated: $updated"
             echo "- Source: $TODO_FILE"
