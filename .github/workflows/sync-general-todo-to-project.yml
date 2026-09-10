@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 env:
-  PROJECT_OWNER: TheAdA-NMR
+  PROJECT_OWNER: '@me'
   PROJECT_NUMBER: '2'
   TODO_FILE: 02-General-TODO-List/README.md
 
@@ -26,6 +26,12 @@ jobs:
           GH_TOKEN: ${{ secrets.NMR_PROJECT_TOKEN }}
         run: |
           set -euo pipefail
+          viewer="$(gh api user --jq '.login')"
+          echo "Authenticated as: $viewer"
+          if [[ "$viewer" != 'TheAdA-NMR' ]]; then
+            echo "::error::NMR_PROJECT_TOKEN belongs to $viewer, expected TheAdA-NMR."
+            exit 1
+          fi
           gh project view "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" >/dev/null
 
       - name: Ensure project fields
