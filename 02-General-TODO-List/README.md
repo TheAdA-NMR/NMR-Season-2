@@ -1,6 +1,6 @@
 # General TODO List
 
-## S01 Mod List — [Source TODO](../03-S01-Mod-List/TODO.md)
+## S01 Mod List — [Source TODO](../04-S01-Mod-List/TODO.md)
 
 | ID | TODO | Section | Status | Priority | Owner |
 |---|---|---|---|---|---|
@@ -14,7 +14,7 @@
 | S01-021 | NMR_Server_Pack — Lakatash will clean up the server pack and share the updated content list afterwards for S02 review. | S01 Mod List | Todo | Medium | Lakatash |
 | S01-022 | Review which DayZ Expansion features can be used in S02. Where practical, use Expansion functionality instead of additional mods and avoid mods that duplicate or conflict with features already provided by Expansion. | S01 Mod List | Todo | Medium | Lakatash + The_AdA |
 
-## Storyline & Main Quest Line — [Source TODO](../04-Storyline-Main-Quest-Line/TODO.md)
+## Storyline & Main Quest Line — [Source TODO](../05-Storyline-Main-Quest-Line/TODO.md)
 
 | ID | TODO | Section | Status | Priority | Owner |
 |---|---|---|---|---|---|

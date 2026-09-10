@@ -9,11 +9,11 @@ NMR-Season-2/
 ├─ 01-Server-Setup/
 ├─ 02-General-TODO-List/
 │  └─ README.md
-├─ 13-Game-Progression/
+├─ 03-Game-Progression/
 │  └─ TODO.md
-├─ 03-S01-Mod-List/
+├─ 04-S01-Mod-List/
 │  └─ TODO.md
-├─ 04-Storyline-Main-Quest-Line/
+├─ 05-Storyline-Main-Quest-Line/
 │  ├─ 01-Foundations.md
 │  ├─ 02-Timeline.md
 │  ├─ 03-Chapters.md
@@ -22,25 +22,25 @@ NMR-Season-2/
 │  ├─ 06-Lore-Documents.md
 │  ├─ 07-AI-Bosses.md
 │  └─ TODO.md
-├─ 05-Factions/
+├─ 06-Factions/
 │  └─ TODO.md
-├─ 06-Side-Quests/
+├─ 07-Side-Quests/
 │  ├─ 01-Hunter-Quests/
 │  ├─ 02-Medic-Quests/
 │  ├─ 03-Bandit-Quests/
 │  └─ TODO.md
-├─ 07-Locations-Custom-Areas/
+├─ 08-Locations-Custom-Areas/
 │  └─ TODO.md
-├─ 08-Events/
+├─ 09-Events/
 │  ├─ Event-Mod-List.md
 │  └─ TODO.md
-├─ 09-Economy-Traders/
+├─ 10-Economy-Traders/
 │  └─ TODO.md
-├─ 10-Weapons/
+├─ 11-Weapons/
 │  └─ TODO.md
-├─ 11-Building-Building-Items/
+├─ 12-Building-Building-Items/
 │  └─ TODO.md
-├─ 12-Vehicles/
+├─ 13-Vehicles/
 │  └─ TODO.md
 ├─ README.md
 └─ CHANGELOG.md
