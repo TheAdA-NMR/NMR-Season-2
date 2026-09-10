@@ -8,6 +8,7 @@ Development repository for **No Man's Road — Season 2**.
 NMR-Season-2/
 ├─ 01-Server-Setup/
 ├─ 02-S01-Mod-List/
+│  └─ TODO.md
 ├─ 03-Storyline-Main-Quest-Line/
 │  ├─ 01-Foundations.md
 │  ├─ 02-Timeline.md
@@ -15,20 +16,30 @@ NMR-Season-2/
 │  ├─ 04-Quest-Progression.md
 │  ├─ 05-Locations.md
 │  ├─ 06-Lore-Documents.md
-│  └─ 07-AI-Bosses.md
+│  ├─ 07-AI-Bosses.md
+│  └─ TODO.md
 ├─ 04-Factions/
+│  └─ TODO.md
 ├─ 05-Side-Quests/
 │  ├─ 01-Hunter-Quests/
 │  ├─ 02-Medic-Quests/
-│  └─ 03-Bandit-Quests/
+│  ├─ 03-Bandit-Quests/
+│  └─ TODO.md
 ├─ 06-Locations-Custom-Areas/
+│  └─ TODO.md
 ├─ 07-Events/
-│  └─ Event-Mod-List.md
+│  ├─ Event-Mod-List.md
+│  └─ TODO.md
 ├─ 08-Economy-Traders/
+│  └─ TODO.md
 ├─ 09-Weapons/
+│  └─ TODO.md
 ├─ 10-Building-Building-Items/
+│  └─ TODO.md
 ├─ 11-Vehicles/
+│  └─ TODO.md
 ├─ 12-Game-Progression/
+│  └─ TODO.md
 ├─ README.md
 └─ CHANGELOG.md
 ```
@@ -40,6 +51,8 @@ NMR-Season-2/
 - **Server Setup** contains only finalized server-side implementation tasks transferred from Season 2 design decisions.
 - Any topic that has **not** been transferred to **Server Setup** is considered an **open decision / open design topic**.
 - No separate **Open Decisions** file is maintained.
+- Each top-level project section except **Server Setup** has one section-level `TODO.md` file.
+- Subfolders do not have separate TODO files unless explicitly agreed later.
 - **S01 Mod List** contains the Season 1 mod inventory and the working Season 2 review / replacement decisions.
 - Gameplay or narrative decisions that do not require server configuration remain in their design section.
 - New headings and subfolders are added only after they are agreed.
