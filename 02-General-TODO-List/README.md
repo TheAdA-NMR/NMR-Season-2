@@ -12,3 +12,9 @@
 | S01-019 | RaG_BeeHive — Confirm removal from S02. | S01 Mod List | Todo | Medium | Lakatash + The_AdA |
 | S01-020 | Review the complete S01 Mod List and finalize the remaining S02 mod decisions. | S01 Mod List | Todo | Medium | Lakatash + The_AdA |
 | S01-021 | NMR_Server_Pack — Lakatash will clean up the server pack and share the updated content list afterwards for S02 review. | S01 Mod List | Todo | Medium | Lakatash |
+
+## Storyline & Main Quest Line — [Source TODO](../04-Storyline-Main-Quest-Line/TODO.md)
+
+| ID | TODO | Section | Status | Priority | Owner |
+|---|---|---|---|---|---|
+| MQ-001 | Review 01-Foundations.md, 02-Timeline.md and 03-Chapters.md together and finalize/freeze the core S02 storyline. | Storyline & Main Quest Line | Todo | Medium | Lakatash + The_AdA |
