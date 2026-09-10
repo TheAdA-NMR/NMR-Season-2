@@ -1,5 +1,10 @@
 # Change Log
 
+## 2026-09-10 — Open Decisions Rule Update
+- Removed **07-Open-Decisions.md** from **Storyline & Main Quest Line**.
+- Defined the project rule that any topic not yet transferred to **Server Setup** remains an open decision / open design topic.
+- Removed the need for a separate Open Decisions file.
+
 ## 2026-09-09 — S01 Mod List Reordered
 - Moved **S01 Mod List** to the second top-level project position.
 - Renumbered the former sections 02–11 to 03–12 while preserving their contents.
