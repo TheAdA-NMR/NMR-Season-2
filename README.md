@@ -8,7 +8,7 @@ Development repository for **No Man's Road — Season 2**.
 NMR-Season-2/
 ├─ 01-Server-Setup/
 ├─ 02-General-TODO-List/
-│  └─ General-TODO-List.md
+│  └─ README.md
 ├─ 03-S01-Mod-List/
 │  └─ TODO.md
 ├─ 04-Storyline-Main-Quest-Line/
@@ -55,7 +55,7 @@ NMR-Season-2/
 - No separate **Open Decisions** file is maintained.
 - Each top-level project section except **Server Setup** and **General TODO List** has one section-level `TODO.md` file.
 - Subfolders do not have separate TODO files unless explicitly agreed later.
-- **General TODO List** is the consolidated summary of all section-level TODO files and will mirror their items under the relevant section heading with a link to the source TODO file.
+- **General TODO List** is maintained in `02-General-TODO-List/README.md` as the consolidated summary of all section-level TODO files and will mirror their items under the relevant section heading with a link to the source TODO file.
 - **S01 Mod List** contains the Season 1 mod inventory and the working Season 2 review / replacement decisions.
 - Gameplay or narrative decisions that do not require server configuration remain in their design section.
 - New headings and subfolders are added only after they are agreed.
