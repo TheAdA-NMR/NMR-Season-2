@@ -2,6 +2,7 @@
 
 ## 2026-09-10 — Open Decisions Rule Update
 - Removed **07-Open-Decisions.md** from **Storyline & Main Quest Line**.
+- Renumbered **AI Bosses** to **07-AI-Bosses.md** after the removal.
 - Defined the project rule that any topic not yet transferred to **Server Setup** remains an open decision / open design topic.
 - Removed the need for a separate Open Decisions file.
 

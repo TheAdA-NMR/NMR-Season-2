@@ -15,7 +15,7 @@ NMR-Season-2/
 │  ├─ 04-Quest-Progression.md
 │  ├─ 05-Locations.md
 │  ├─ 06-Lore-Documents.md
-│  └─ 08-AI-Bosses.md
+│  └─ 07-AI-Bosses.md
 ├─ 04-Factions/
 ├─ 05-Side-Quests/
 │  ├─ 01-Hunter-Quests/
