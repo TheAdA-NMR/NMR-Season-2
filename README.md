@@ -9,6 +9,8 @@ NMR-Season-2/
 ├─ 01-Server-Setup/
 ├─ 02-General-TODO-List/
 │  └─ README.md
+├─ 13-Game-Progression/
+│  └─ TODO.md
 ├─ 03-S01-Mod-List/
 │  └─ TODO.md
 ├─ 04-Storyline-Main-Quest-Line/
@@ -39,8 +41,6 @@ NMR-Season-2/
 ├─ 11-Building-Building-Items/
 │  └─ TODO.md
 ├─ 12-Vehicles/
-│  └─ TODO.md
-├─ 13-Game-Progression/
 │  └─ TODO.md
 ├─ README.md
 └─ CHANGELOG.md
