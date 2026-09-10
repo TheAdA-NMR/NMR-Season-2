@@ -7,9 +7,11 @@ Development repository for **No Man's Road — Season 2**.
 ```text
 NMR-Season-2/
 ├─ 01-Server-Setup/
-├─ 02-S01-Mod-List/
+├─ 02-General-TODO-List/
+│  └─ General-TODO-List.md
+├─ 03-S01-Mod-List/
 │  └─ TODO.md
-├─ 03-Storyline-Main-Quest-Line/
+├─ 04-Storyline-Main-Quest-Line/
 │  ├─ 01-Foundations.md
 │  ├─ 02-Timeline.md
 │  ├─ 03-Chapters.md
@@ -18,27 +20,27 @@ NMR-Season-2/
 │  ├─ 06-Lore-Documents.md
 │  ├─ 07-AI-Bosses.md
 │  └─ TODO.md
-├─ 04-Factions/
+├─ 05-Factions/
 │  └─ TODO.md
-├─ 05-Side-Quests/
+├─ 06-Side-Quests/
 │  ├─ 01-Hunter-Quests/
 │  ├─ 02-Medic-Quests/
 │  ├─ 03-Bandit-Quests/
 │  └─ TODO.md
-├─ 06-Locations-Custom-Areas/
+├─ 07-Locations-Custom-Areas/
 │  └─ TODO.md
-├─ 07-Events/
+├─ 08-Events/
 │  ├─ Event-Mod-List.md
 │  └─ TODO.md
-├─ 08-Economy-Traders/
+├─ 09-Economy-Traders/
 │  └─ TODO.md
-├─ 09-Weapons/
+├─ 10-Weapons/
 │  └─ TODO.md
-├─ 10-Building-Building-Items/
+├─ 11-Building-Building-Items/
 │  └─ TODO.md
-├─ 11-Vehicles/
+├─ 12-Vehicles/
 │  └─ TODO.md
-├─ 12-Game-Progression/
+├─ 13-Game-Progression/
 │  └─ TODO.md
 ├─ README.md
 └─ CHANGELOG.md
@@ -51,8 +53,9 @@ NMR-Season-2/
 - **Server Setup** contains only finalized server-side implementation tasks transferred from Season 2 design decisions.
 - Any topic that has **not** been transferred to **Server Setup** is considered an **open decision / open design topic**.
 - No separate **Open Decisions** file is maintained.
-- Each top-level project section except **Server Setup** has one section-level `TODO.md` file.
+- Each top-level project section except **Server Setup** and **General TODO List** has one section-level `TODO.md` file.
 - Subfolders do not have separate TODO files unless explicitly agreed later.
+- **General TODO List** is the consolidated summary of all section-level TODO files and will mirror their items under the relevant section heading with a link to the source TODO file.
 - **S01 Mod List** contains the Season 1 mod inventory and the working Season 2 review / replacement decisions.
 - Gameplay or narrative decisions that do not require server configuration remain in their design section.
 - New headings and subfolders are added only after they are agreed.

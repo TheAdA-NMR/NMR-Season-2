@@ -1,5 +1,12 @@
 # Change Log
 
+## 2026-09-10 — General TODO List Added
+- Added **General TODO List** as the second top-level project section.
+- Renumbered the former sections 02–12 to 03–13 while preserving their contents.
+- Added `General-TODO-List.md` as the consolidated TODO summary file.
+- Defined the rule that section-level TODO items will be mirrored in the General TODO List under the relevant section heading with a link to the source TODO file.
+- Left the General TODO List empty for initial setup.
+
 ## 2026-09-10 — Open Decisions Rule Update
 - Removed **07-Open-Decisions.md** from **Storyline & Main Quest Line**.
 - Renumbered **AI Bosses** to **07-AI-Bosses.md** after the removal.
