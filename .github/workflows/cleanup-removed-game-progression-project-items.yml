@@ -1,0 +1,69 @@
+name: Cleanup Removed Game Progression Project Items
+
+on:
+  push:
+    paths:
+      - '.github/workflows/cleanup-removed-game-progression-project-items.yml'
+
+permissions:
+  contents: read
+
+env:
+  PROJECT_NUMBER: '2'
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete stale PROG draft items from Project #2
+        env:
+          GH_TOKEN: ${{ secrets.NMR_PROJECT_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          viewer="$(gh api user --jq '.login')"
+          if [[ "$viewer" != 'TheAdA-NMR' ]]; then
+            echo "::error::NMR_PROJECT_TOKEN belongs to $viewer, expected TheAdA-NMR."
+            exit 1
+          fi
+
+          gh api graphql \
+            -F number="$PROJECT_NUMBER" \
+            -f query='query($number:Int!) {
+              viewer {
+                projectV2(number:$number) {
+                  id
+                  items(first:100) {
+                    nodes {
+                      id
+                      content {
+                        __typename
+                        ... on DraftIssue { title }
+                      }
+                    }
+                  }
+                }
+              }
+            }' > /tmp/project.json
+
+          PROJECT_ID="$(jq -r '.data.viewer.projectV2.id // empty' /tmp/project.json)"
+          if [[ -z "$PROJECT_ID" ]]; then
+            echo "::error::Project #$PROJECT_NUMBER not found."
+            exit 1
+          fi
+
+          deleted=0
+          while IFS= read -r item_id; do
+            [[ -z "$item_id" ]] && continue
+            gh api graphql \
+              -f project="$PROJECT_ID" \
+              -f item="$item_id" \
+              -f query='mutation($project:ID!, $item:ID!) {
+                deleteProjectV2Item(input:{projectId:$project, itemId:$item}) {
+                  deletedItemId
+                }
+              }' >/dev/null
+            deleted=$((deleted + 1))
+          done < <(jq -r '.data.viewer.projectV2.items.nodes[]? | select(.content.__typename=="DraftIssue" and ((.content.title // "") | startswith("[PROG-"))) | .id' /tmp/project.json)
+
+          echo "Deleted $deleted stale PROG Project item(s)."
