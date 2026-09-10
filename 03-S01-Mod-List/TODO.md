@@ -12,3 +12,4 @@ Final decisions below will be made jointly by **Lakatash + The_AdA** unless othe
 | S01-019 | RaG_BeeHive — Confirm removal from S02. | S01 Mod List | Todo | Medium | Lakatash + The_AdA |
 | S01-020 | Review the complete S01 Mod List and finalize the remaining S02 mod decisions. | S01 Mod List | Todo | Medium | Lakatash + The_AdA |
 | S01-021 | NMR_Server_Pack — Lakatash will clean up the server pack and share the updated content list afterwards for S02 review. | S01 Mod List | Todo | Medium | Lakatash |
+| S01-022 | Review which DayZ Expansion features can be used in S02. Where practical, use Expansion functionality instead of additional mods and avoid mods that duplicate or conflict with features already provided by Expansion. | S01 Mod List | Todo | Medium | Lakatash + The_AdA |
