@@ -1,3 +1,4 @@
+# One-time cleanup workflow
 name: Cleanup Removed Game Progression Project Items
 
 on:
