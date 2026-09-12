@@ -16,7 +16,9 @@
 - Encourage **P2P trading** and reduce dependence on NPC traders.
 - Increase **Black Market difficulty** and make access/travel to it more challenging.
 - Keep the **Black Market location hidden**; players should discover it themselves.
-- Trader layout: **Altar = main Trader Zone**, **Green Mountain = Medical Zone**; a **second Military Trader** can be considered.
+- Trader layout: **Altar = main Trader Zone**, **Green Mountain = Medical Zone**, plus a possible **second Military Trader**.
+- The second Military Trader can sell **mid-tier SNAFU weapons and military gear sets**.
+- A tighter economy will require **additional income sources** for players.
 
 ## Vehicle Progression
 
