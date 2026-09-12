@@ -16,8 +16,10 @@
 - Encourage **P2P trading** and reduce dependence on NPC traders.
 - Increase **Black Market difficulty** and make access/travel to it more challenging.
 - Keep the **Black Market location hidden**; players should discover it themselves.
+- Black Market stock can focus on **high-tier / high-caliber weapons, matching suppressors, high-capacity bags, BallerZ equipment and collector items**.
 - Trader layout: **Altar = main Trader Zone**, **Green Mountain = Medical Zone**, plus a possible **second Military Trader**.
 - The second Military Trader can sell **mid-tier SNAFU weapons and military gear sets**.
+- **Pawn Shop can be removed**.
 - A tighter economy will require **additional income sources** for players.
 
 ## Vehicle Progression
