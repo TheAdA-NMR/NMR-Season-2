@@ -19,6 +19,7 @@
 - Black Market stock can focus on **high-tier / high-caliber weapons, matching suppressors, high-capacity bags, BallerZ equipment and collector items**.
 - Trader layout: **Altar = main Trader Zone**, **Green Mountain = Medical Zone**, plus a possible **second Military Trader**.
 - The second Military Trader can sell **mid-tier SNAFU weapons and military gear sets**.
+- Move the **Mining Trader** and use the **cave area as the Mining Zone**, with possible **zombies, animals and/or AI** as threats.
 - **Pawn Shop can be removed**.
 - A tighter economy will require **additional income sources** for players.
 
