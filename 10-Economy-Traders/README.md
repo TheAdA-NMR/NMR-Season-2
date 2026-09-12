@@ -15,6 +15,7 @@
 - Slow the **trader economy** and make **jobs / active gameplay income** more valuable.
 - Encourage **P2P trading** and reduce dependence on NPC traders.
 - Increase **Black Market difficulty** and make access/travel to it more challenging.
+- Keep the **Black Market location hidden**; players should discover it themselves.
 
 ## Vehicle Progression
 
