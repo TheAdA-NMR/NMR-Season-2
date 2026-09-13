@@ -9,6 +9,7 @@
 - Keep **SNAFU weapons** minimal in ground loot; primary sources should be **events and AI missions**.
 - Add a clear **mid-tier → end-game gear** progression step.
 - High-capacity gear should take time to earn; a **1000-capacity backpack** should not be reachable after roughly one week of play.
+- Reduce overall gear-item variety: use **vanilla gear + one additional clothing line**, with **FOG + BallerZ** as the main military gear sets.
 
 ## Economy & Trading
 
